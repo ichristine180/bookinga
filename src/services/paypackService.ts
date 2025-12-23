@@ -125,4 +125,4 @@ export const getPaypackSession = (): string | null => {
   return sessionStorage.getItem(PAYPACK_SESSION_KEY);
 };
 
-export const BOOKING_FEE = 5000; // RWF
+export const BOOKING_FEE = 100; // RWF
